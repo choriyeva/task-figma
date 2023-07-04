@@ -520,4 +520,74 @@ color: #119BFF;
     line-height: normal;}
 .card-button i{
     font-size: 20px;
-} 
+}
+#whats-trending{
+    background: var(--primary-colour, #3A0CA3);
+}
+.whats-cards-box{
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+}
+.whats-top{
+    margin-top: 110px;
+}
+.whats-card{
+    width: 340px;
+    color: #fff;
+}
+.c-top{
+    width: 340px;
+    height: 240px;
+    background-image: url("img/card21.png");
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.whats-card:nth-child(2) .c-top{
+    background-image: url("img/card22.png");
+}
+.whats-card:nth-child(3) .c-top{
+    background-image: url("img/card23.png");
+}
+.namber{
+    width: 55px;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+    background-color: #FFF;
+    color: var(--text-colour-2, #2B2B2B);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c-text>h3{
+    font-size: 27.6px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 20px;
+}
+.c-text>p{
+    font-size: 16px;
+    color: var(--text-colour-5, #D4D4D4);
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 30px;
+}
+.whats-card>i{
+font-size: 40px;
+margin-left: 300px;
+color: #fff;
+}
+.whats-bottom{
+    margin: 70px 0 100px 360px;
+    display: flex;
+    gap: 39px;
+    padding-bottom: 100px;
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background-color: #fff;
+    border-radius:4px ;
+}
