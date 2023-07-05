@@ -165,15 +165,16 @@ line-height: 26px;
 }
 .ellips2{
 position: absolute;
+left: 540px;
 width: 60px;
 height: 60px;
 transform: rotate(30deg);
 border-radius: 60px;
 background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0.00) 100%);
 }
-.hero-text>div{
-margin-left: 540px;
-}
+/* .hero-text>div{
+left: 540px;
+} */
 form{
 border-radius: 30px;
 background: #FFF;

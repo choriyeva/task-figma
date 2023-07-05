@@ -25,7 +25,6 @@ font-weight: 500;
 #footer-top>.container{
     padding-top:82px ;
     padding-bottom:98px ;
-    
     display: flex;
     gap: 121px;
 }
