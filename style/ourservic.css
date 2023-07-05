@@ -67,7 +67,6 @@
 .testimonals-box{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 250px;
 }
 .testimonals-left{
     display: flex;

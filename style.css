@@ -395,7 +395,6 @@ background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0.00) 100%);
     display: flex;
     gap: 315px;
     align-items: center;
-    margin-top: 100px;
 }
 .checkout-button-box{
     display: flex;
