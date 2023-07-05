@@ -1,0 +1,130 @@
+.checkout-top{
+    display: flex;
+    gap: 315px;
+    align-items: center;
+}
+.checkout-button-box{
+    display: flex;
+    gap: 20px;
+}
+.checkout-button-box>.div{
+    display: flex;
+    width: 97px;
+    height: 49px;
+    border: 2px #3A0CA3 solid;
+    border-radius: 50px;
+    align-items: center;
+    justify-content:center;
+    color: #3A0CA3;
+}
+.checkout-button-box>.div input:checked + label{
+    color: #FFF;
+    background-color: aqua;
+}
+.text-box>h4{
+color: var(--colour-1, #4361EE);
+font-size: 19.4px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2.91px;
+margin-bottom: 30px;
+}
+.text-box>h2{
+    color: var(--text-colour-2, #2B2B2B);
+    font-size: 39.8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+    margin-bottom: 30px;
+}
+.text-box>p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+.checkout-card-box{
+display: inline-flex;
+height: 499px;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 50px;
+margin-bottom: 200px;
+}
+.card{
+width: 340px;
+height: 499.06px;
+}
+.card-top{
+width: 340px;
+height: 340px;
+background-image: url("img/Rectangle1.png");
+margin-bottom: 25px;
+display: flex;
+align-items: end;
+padding: 0 0 30px 30px;
+}
+.card:nth-child(2) .card-top{
+    background-image: url("img/Rectangle2.png");
+}
+.card:nth-child(3) .card-top{
+    background-image: url("img/Rectangle3.png");
+}
+.card-text{
+    height: 134px;
+}
+.card-text>h3{
+font-size: 27.6px;
+font-weight: 600;
+}
+.card-text>h4{
+font-size: 19.4px;
+font-weight: 500;
+margin-bottom: 6px;
+
+}
+.card-text>p{
+    color: var(--text-colour-3, #808080);
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+.icons-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.card-button{
+    width: 141px;
+    height: 42px;
+    display: flex;
+    border-radius: 20px;
+    background: #FFE1E1;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #FF1111;
+}
+.card:nth-child(2) .card-button{
+    width: 169px;
+background: #D7EEFF;
+color: #119BFF;
+}
+.card:nth-child(3) .card-button{
+    width: 205px;
+    background: #F1FFF1;
+    color: #00CE3A;
+}
+.card-button h5{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;}
+.card-button i{
+    font-size: 20px;
+}

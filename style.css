@@ -598,4 +598,6 @@ color: #fff;
     display: flex;
     gap: 84px;
     margin-bottom: 300px;
+    align-items: center;
 }
+.testimonals-footer-left{}
