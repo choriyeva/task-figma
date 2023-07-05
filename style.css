@@ -395,6 +395,7 @@ background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0.00) 100%);
     display: flex;
     gap: 315px;
     align-items: center;
+    margin-top: 100px;
 }
 .checkout-button-box{
     display: flex;
@@ -589,4 +590,12 @@ color: #fff;
     height: 4px;
     background-color: #fff;
     border-radius:4px ;
+}
+.testimonals-footer{
+    width: 1200px;
+    background-color: #3A0CA3;
+    margin: 0 auto;
+    display: flex;
+    gap: 84px;
+    margin-bottom: 300px;
 }
