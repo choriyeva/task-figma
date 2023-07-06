@@ -93,48 +93,67 @@
 #testimonals>.container{
     max-width: 1200px;
 }
-.testimonals-footer{
-    width: 1200px;
-    height: 260px;
-    border-radius: 40px;
-    background: var(--primary-colour, #3A0CA3);
+.testimonals-box1-footer-left{
     display: flex;
-    gap: 85px;
     align-items: center;
-    justify-content: right;
-    padding-right: 188px;
+    gap: 15px;
+}
+.testimonals-box1-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonals-box1-footer h4{
+    color: #2B2B2B;
+    font-size: 19.40px;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.testimonals-footer{
+    background-color: #3A0CA3;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 40px;
+    gap: 84px;
     margin-bottom: 180px;
-    margin-top: 130px;
+    align-items: center;
 }
+.testimonals-footer-left{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color: white;
+}
+.testimonals-footer-left img{
+    position: relative;
+    top: -20px;
 
-.testimonals-footer>.text-box{
-    color: var(--white, #FFF);
 }
-.testimonals-footer>.text-box h2{
-    color: #fff;
+.testimonals-text h2{
+    color: white;
+    font-size: 39.80px;
+    font-weight: 600;
+    line-height: 47px;
 }
-.elleps-t{
-width: 100px;
-height: 100px;
-transform: rotate(30deg);
-border-radius: 100px;
-opacity: 0.5;
-background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+.testimonals-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
-.e{
+.testimonals-footer-right button{
+    padding: 19px 30px;
+    border: none;
+    color: #3A0CA3;
+    font-weight: 500;
+    border-radius: 30px;
+}
+.test-ellips1{
+    width: 100px;
+    height: 100px;
+    transform: rotate(30deg); 
     position: relative;
-    left: 1038px;
-    top:180px ;
-}
-.e + .img{
-    position: absolute;
-    top: 7155px; 
-    /* position: relative;
-    top: 270px; */
-    
-}
-.b{
-    position: relative;
-    left: 50px;
-    top:50px ;
+    left: 1034px;
+    bottom: -40px;
+    background: linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 50%;
 }
