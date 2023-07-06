@@ -68,6 +68,7 @@
 .testimonals-box{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 250px;
 }
 .testimonals-left{
     display: flex;
@@ -152,3 +153,54 @@
     top: 30px;
     left: -30px;
 }
+.testimonals-footer{
+    width: 1200px;
+    height: 260px;
+    background-color: #3A0CA3;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 40px;
+    gap: 84px;
+    margin-bottom: 180px;
+    align-items: center;
+}
+.testimonals-footer-left{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color: white;
+}
+.testimonals-footer-left img{
+    position: relative;
+    top: -20px;
+
+}
+.testimonals-text h2{
+    color: white;
+    font-size: 39.80px;
+    font-weight: 600;
+    line-height: 47px;
+}
+.testimonals-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.testimonals-footer-right button{
+    padding: 19px 30px;
+    border: none;
+    color: #3A0CA3;
+    font-weight: 500;
+    border-radius: 30px;
+}
+.test-ellips1{
+    width: 100px;
+    height: 100px;
+    transform: rotate(30deg); 
+    position: relative;
+    left: 1034px;
+    bottom: -40px;
+    background: linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 50%;
+}
+

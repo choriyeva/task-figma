@@ -1,0 +1,25 @@
+.assisting-boxs{
+    display: flex;
+    justify-content: flex-end;
+}
+.assisting{
+    display: flex;
+}
+.assisting-boxs-p{
+    color: #4361EE;
+    font-size: 19.40px;
+    font-weight: 500;
+    letter-spacing: 2.91px;
+    word-wrap: break-word
+}
+.assisting-boxs h2{
+    color: #2B2B2B;
+   font-size: 39.80px;
+    font-weight: 600;
+    line-height: 47px;
+    word-wrap: break-word
+}
+.assisting-boxs-right{
+    display: flex;
+    gap: 2px;
+}
