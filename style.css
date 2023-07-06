@@ -9,7 +9,8 @@ header{
 }
 .container{
     margin: 0 auto;
-    max-width: 1120px;}
+    max-width: 1120px;
+}
 .nav-top{
     background: var(--primary-colour, #3A0CA3);
     display: flex;
@@ -18,21 +19,23 @@ header{
     gap: 689px;
     padding: 15px;
 }
-.text{
+.text {
     display: flex;
     color: var(--white, #FFF);
-    font-size: 13.3px;
+    gap: 6px;
+    text-decoration: none;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
-    gap: 6px;
 }
 .contact{
     display: flex;
     gap: 30px;
 }
-.contact>div{
-    font-size: 13.3px;
+.a{
+    text-decoration: none;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
@@ -110,16 +113,16 @@ text-decoration: none;
 #hero{
 display: flex;
 flex-direction: column;
-border-radius: 0px 0px 800px 800px;
+ border-radius: 0px 0px 800px 800px; 
 background: linear-gradient(180deg, rgba(76, 201, 240, 0.00) 0%, rgba(67, 97, 238, 0.30) 100%);
 align-items: center;
+height: 902px;
 }
-div>.div2{
+.div2{
     display: flex;
     align-items: end;
     gap: 160px;
     margin-top: 79px;
-    margin-bottom: 116px;
 }
 .hero-text{
     display: flex;
@@ -158,15 +161,20 @@ line-height: 26px;
 .hero-text>img{
     width: 580px;
     border-radius: 20px;
+    position: relative;
 }
 .ellips2{
 position: absolute;
+left: 540px;
 width: 60px;
 height: 60px;
 transform: rotate(30deg);
 border-radius: 60px;
 background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0.00) 100%);
 }
+/* .hero-text>div{
+left: 540px;
+} */
 form{
 border-radius: 30px;
 background: #FFF;
@@ -268,14 +276,14 @@ gap: 10px;
     font-weight: 500;
     line-height: normal;
 }
-#hero-bottom{
-    position: absolute;
-}
 .hero-buttons{
+margin-top: 65px;
 display: flex;
 gap: 30px;
 width: 710px;
 height: 100px;
+margin-left: 200px;
+
 }
 .btn1{
 width: 360px;
@@ -521,6 +529,7 @@ color: #119BFF;
 .card-button i{
     font-size: 20px;
 }
+<<<<<<< HEAD
 #whats-trending{
     background: var(--primary-colour, #3A0CA3);
 }
@@ -591,3 +600,5 @@ color: #fff;
     background-color: #fff;
     border-radius:4px ;
 }
+=======
+>>>>>>> b01d105222cbf937aa8424fac6f8808573ad41df
